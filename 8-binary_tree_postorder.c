@@ -5,7 +5,7 @@
 /*---------------------------------------------------------------------------*/
 
 /**
- * binary_tree_postorder - Goes through a binary tree using pre-order traversal.
+ * binary_tree_postorder - Goes through a binary tree using preorder traversal.
  * @tree: Pointer to the root node of the tree to traverse.
  * @func: Pointer to a function to call for each node. The value in the node
  * must be passed as a parameter to this function.
