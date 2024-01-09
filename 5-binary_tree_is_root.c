@@ -12,11 +12,9 @@
 */
 int binary_tree_is_root(const binary_tree_t *node)
 {
-	if (node == NULL)
-		return (0);
+	int is_root = 1;
 
-	if (node->left == NULL)
-		return (0);
-
-	return (1);
+	if ((node->parent == NULL) || (node == NULL))
+		is_root = 0;
+	return (is_root);
 }
