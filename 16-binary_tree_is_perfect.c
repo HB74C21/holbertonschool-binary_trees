@@ -7,7 +7,7 @@
 /**
  * binary_tree_height_b - Measures height of a binary tree for a bal tree
  * @tree: tree to go through
- * Return: the height
+ * Return: the height of the tree. Begin from 0.
  */
 
 int binary_tree_height_b(const binary_tree_t *tree)
